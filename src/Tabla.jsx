@@ -1,33 +1,39 @@
 import React from "react";
 
 export function Tabla() {
-    return (
-      <table class="table">
+    return (      
+      <table class="table table-success table-striped">
       <thead>
+      
+      <h1>Tabla</h1>
+      <p>A continuacion se van a solicitar los datos de algunos estudiates</p>
+  
+
         <tr>
           <th scope="col">#</th>
-          <th scope="col">First</th>
-          <th scope="col">Last</th>
-          <th scope="col">Handle</th>
+          <th scope="col">Nombre</th>
+          <th scope="col">Apellido</th>
+          <th scope="col">Telefono</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <th scope="row">1</th>
-          <td>Mark</td>
-          <td>Otto</td>
-          <td>@mdo</td>
+          <td>isabella</td>
+          <td>mora</td>
+          <td>123456789</td>
         </tr>
         <tr>
           <th scope="row">2</th>
-          <td>Jacob</td>
-          <td>Thornton</td>
-          <td>@fat</td>
+          <td>Daniel</td>
+          <td>Sanchez</td>
+          <td>98765432</td>
         </tr>
         <tr>
           <th scope="row">3</th>
-          <td colspan="2">Larry the Bird</td>
-          <td>@twitter</td>
+          <td>Juan</td>
+          <td>Perez</td>
+          <td>87654389</td>
         </tr>
       </tbody>
     </table>
