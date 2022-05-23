@@ -8,9 +8,10 @@ export function Formulario() {
         <div>
         <h2>
           <br />
-          <strong>Importante:</strong> Este formulario solicita nombre, apellido y correo para saber mas de ti
+          Importante
         </h2>
-        <br />
+        <p>Este formulario solicita nombre, apellido y correo para saber mas de ti</p>
+        <br/>
             <label for="">Nombre</label>
             <input class="form-control form-control-lg" type="text" placeholder="Nombre" aria-label="nombre"/>
             <label for="">Apellido</label>
@@ -22,6 +23,8 @@ export function Formulario() {
         </div>
     </form>
     </div>
+    <br/>
+    <br/>
     </div>
   )
 }
