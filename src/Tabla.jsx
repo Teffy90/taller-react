@@ -2,10 +2,11 @@ import React from "react";
 
 export function Tabla() {
     return (      
+      <div class="container"> 
       <table class="table table-success table-striped">
       <thead>
       
-      <h1>Tabla</h1>
+      <h2>Tabla</h2>
       <p>A continuacion se van a solicitar los datos de algunos estudiates</p>
   
 
@@ -37,5 +38,8 @@ export function Tabla() {
         </tr>
       </tbody>
     </table>
+    <br/>
+    <br/>
+    </div>
     )
 }
