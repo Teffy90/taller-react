@@ -38,6 +38,8 @@ export function Tabla() {
         </tr>
       </tbody>
     </table>
+    <br/>
+    <br/>
     </div>
     )
 }
